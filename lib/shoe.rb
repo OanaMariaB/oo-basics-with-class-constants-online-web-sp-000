@@ -19,7 +19,7 @@ class Shoe
   end
 
   def brand
-    @brand = BRANDS.uniq!
+    @brand = BRANDS.uniq
   end
 
 end
